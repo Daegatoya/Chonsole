@@ -1,0 +1,44 @@
+-- LoginProgram v 1.0 --
+
+[+] Added Register.js file
+[+] Added Ban.js file
+[+] Added Login.js file
+[+] Synced Register.js and Login.js to users.json file
+[+] Synced Login.js and Ban.js to ban.json file
+
+-- LoginProgram v 1.1 --
+
+[+] Added Password: [] to users.json
+[+] Added a Password system to Login.js and Register.js
+
+-- LoginProgram v 1.2 --
+
+[+] Added a simulation of a local chat system to Login.js file
+[+] Added chalk package to Login.js
+[+] Created a TimeStamp to deliver every messages with the exact time and date in Login.js
+
+-- LoginProgram v 1.3 --
+
+[+] Added IPv4 data for future server connections
+[+] Added Char Token and SHA256 Token to easily find the account (when ChangeUsername is released) (when ChangePassword is released, Char Token will change but not SHA256 Token)
+
+-- Chonsole v 1.0 --
+
+[+] Changed name of LoginProgram
+[+] Added a websocket server opened on port 80
+[+] Synced Login.js file to websocket.js file with a client data connected on port 80
+[+] local IRC finished. Now need to make a public IRC connected to every users using this app
+
+-- Chonsole v 2.0 --
+
+[-] Deleted Ban.js file
+[-] Deleted Ban.json file
+[-] Deleted websocket.js file
+[-] Deleted Login.js file
+[+] Added index.js file
+[+] Added index.html file
+[+] Created src folder
+[+] Created public folder
+[+] Added a websocket server to take inputs and send them back to users
+
+== MORE COMING UP ==
