@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SOCKET SERVER</title>
+  </head>
+  <body></body>
+  <script>
+    window.setTimeout(function() {
+      window.location.reload();
+    }, 30000);
+    const ws = new WebSocket("ws://localhost:9898/");
+    ws.onerror = function(error) {
+      ws.send("Error: " + error);
+    };
+    ws.onopen = function() {
+      console.log("New client connected");
+      ws.send(" ");
+    };
+    ws.onmessage = function(message) {
+      try {
+        ws.send(message.data);
+      } catch (err) {
+        return err;
+      }
+    };
+  </script>
+</html>
