@@ -1,2 +1,8 @@
 # Chonsole
-A program to chat directly into console. Made in server side JavaScript only.
+My first Chat project ever. UNDER TESTING.
+
+# How does it work?
+
+**[COMING SOON]**
+
+Made by: **Daegatoya (Eli_)**
