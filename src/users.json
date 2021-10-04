@@ -1,0 +1,11 @@
+{
+  "README": "This is an example on how register/login should look like:",
+  "users": [
+    {
+      "Name": "Eli_",
+      "Password": "1234",
+      "Token": "zXrBqScwOxk",
+      "TokenSHA256": "c4e3f70c23ffcd4540b2f2265c521c55719abc759efa40e4131e96e460f87bc3"
+    }
+  ]
+}
