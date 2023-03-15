@@ -11,7 +11,7 @@ This program is local. This means it is not usable outside a network, as it does
 
 ---
 
-**With love, Elizabeth** ❤️
+**With love, Daegatoya** ❤️
          
 <p align="center">
 
